@@ -13,9 +13,6 @@ func init() {
 
 	if (username == "") || (password == "") {
 		panic("Username or password not found")
-	} else {
-		fmt.Println(username)
-		fmt.Println(password)
 	}
 }
 

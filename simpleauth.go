@@ -5,7 +5,7 @@ import (
 	"io"
 	"net/http"
 
-	"./auth"
+	"github.com/jrasanen/httpauth/auth"
 )
 
 func hello(w http.ResponseWriter, r *http.Request) {
